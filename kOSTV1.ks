@@ -1,2 +1,0 @@
-clearScreen.
-print "==Hello World==".
