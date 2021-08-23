@@ -26,6 +26,7 @@ lock throttle to thrott.
 until ship:altitude > 40000 {
     set thrott to thrott + dthrott.
     wait 0.1.
-    print "Acc: " + accvec + " Gforce: " + 
-    gforce + "Throttle: " + throttle.
+    print "Acc: " + round(accvec, 2) at (0, 1).
+    print "Gforce: " + round(gforce, 2) at (0, 2).
+    print "Throttle: " + round(throttle, 2) at (0, 3).
 }
